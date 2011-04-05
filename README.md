@@ -17,3 +17,6 @@ Example Usage
     if (mytester.contains('apple')) {
       console.log('apple is in our bit table');
     }
+    if (!mytester.contains('squash')) {
+      console.log('squash is not in our bit table');
+    }
