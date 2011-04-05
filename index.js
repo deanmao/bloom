@@ -1,0 +1,1 @@
+exports.BloomFilter = require('./bloomfilter').BloomFilter;

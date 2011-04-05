@@ -1,0 +1,17 @@
+{
+  "name": "bloom",
+  "description": "Bloom Filters for node",
+  "version": "0.5.2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/deanmao/bloom.git"
+  },
+  "author": "Dean Mao <deanmao@gmail.com>",
+  "scripts": {
+    "preinstall": "make makelibs",
+    "preuninstall": "make clean"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  }
+}
