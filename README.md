@@ -12,11 +12,14 @@ Example Usage
 
     var BloomFilter = require('bloom').BloomFilter;
     var mytester = new BloomFilter(1000);
+    
     mytester.insert('apple');
     mytester.insert('orange');
+    
     if (mytester.contains('apple')) {
       console.log('apple is in our bit table');
     }
+    
     if (!mytester.contains('squash')) {
       console.log('squash is not in our bit table');
     }
