@@ -61,11 +61,11 @@ public:
   {
     HandleScope scope;
     if(args.Length() == 1 && args[0]->IsNumber()) {
-      double value = args[0]->NumberValue();
-      BloomFilter* hw = new BloomFilter(value);
+      int value = args[0]->Int32Value();
+      BloomFilter* hw = new BloomFilter((size_t) value);
       hw->Wrap(args.This());
     } else {
-      BloomFilter* hw = new BloomFilter(10000);
+      BloomFilter* hw = new BloomFilter((size_t) 10000);
       hw->Wrap(args.This());
     }
     return args.This();
