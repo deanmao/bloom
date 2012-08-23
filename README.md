@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/deanmao/bloom.png)](http://travis-ci.org/deanmao/bloom)
 Bloom Filters for Node
 =======================
 
